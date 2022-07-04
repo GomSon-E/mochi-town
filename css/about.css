@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 .hide {
   width: 0; height: 0;
@@ -7,11 +8,17 @@
   visibility: hidden;
 }
 
+div#wrap {
+  position: relative;
+}
+
 /* header */
 header#top {
+  width: 100%;
   height: 70px;
   padding: 20px 0;
   box-sizing: border-box;
+  position: absolute;
 }
 header#top:hover {
   background-color: #fff;
@@ -58,3 +65,28 @@ nav>div#search>p.btn {
 }
 
 /* main - header */
+article>header {
+  height: 300px;
+  padding-top: 110px;
+  box-sizing: border-box;
+  background-color: #FFE97F;
+}
+article>header>div {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+article>header h3 {
+  font: 35px/100px 'Jua', sans-serif;
+}
+article>header p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #555;
+}
+article>header p.img {
+  width: 550px; height: 190px;
+  background: url(../image/main_header.png) no-repeat center;
+}
