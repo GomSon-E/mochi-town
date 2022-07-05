@@ -99,8 +99,30 @@ section>h4 {
   margin-bottom: 90px;
   font-size: 30px;
   font-weight: bold;
-  line-height: 50px;
   color: #A57754;
 }
 
 /* box01 */
+#box01 {
+  margin-top: 170px;
+  text-align: center;
+}
+#box01>img {
+  width: 230px;
+  margin-bottom: 10px;
+}
+#box01>p {
+  font-size: 17px;
+  line-height: 25px;
+}
+#box01>p.first {
+  margin-bottom: 50px;
+}
+#box01>p.second {
+  margin-bottom: 160px;
+}
+#box01>p.img {
+  margin: 0 auto;
+  width: 800px; height: 400px;
+  background: url(../image/box01_img.png) no-repeat center;
+}
