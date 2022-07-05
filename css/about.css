@@ -195,3 +195,21 @@ section>h4 {
 }
 
 /* aside */
+aside {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+aside>p {
+  width: 35px; height: 35px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgba(255,255,255,0.6);
+}
+aside>p:first-child {
+  margin-bottom: 10px;
+}
