@@ -23,7 +23,7 @@ header#top {
   height: 70px;
   padding: 20px 0;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
 }
 header#top:hover {
   background-color: #fff;
@@ -48,7 +48,7 @@ nav>ul>li {
   margin-left: 55px;
 }
 nav>ul>li>a {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 40px;
 }
 nav>div#search {
@@ -58,7 +58,9 @@ nav>div#search {
 nav>div#search>input {
   width: 230px; height: 30px;
   box-sizing: border-box;
+  border: 1px solid #D2D2D2;
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 nav>div#search>p.btn {
   background: url(../image/search.png) no-repeat center;
