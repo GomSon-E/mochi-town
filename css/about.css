@@ -75,6 +75,7 @@ article>header {
   padding-top: 110px;
   box-sizing: border-box;
   background-color: #FFE97F;
+  margin-bottom: 170px;
 }
 article>header>div {
   width: 1150px;
@@ -98,7 +99,7 @@ article>header p.img {
 
 /* box */
 section {
-  margin-top: 80px;
+  margin-bottom: 80px;
   text-align: center;
 }
 section>h4 {
@@ -109,9 +110,6 @@ section>h4 {
 }
 
 /* box01 */
-#box01 {
-  margin-top: 170px;
-}
 #box01>img {
   width: 230px;
   margin-bottom: 10px;
@@ -172,6 +170,9 @@ section>h4 {
 }
 
 /* box03 */
+#box03 {
+  margin-bottom: 0;
+}
 #box03>ul {
   display: flex;
   margin-bottom: 80px;
