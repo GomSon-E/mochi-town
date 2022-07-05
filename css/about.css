@@ -92,3 +92,13 @@ article>header p.img {
 }
 
 /* box */
+section {
+  margin-top: 80px;
+}
+section>h4 {
+  margin-bottom: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #A57754;
+}
