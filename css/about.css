@@ -170,3 +170,26 @@ section>h4 {
 }
 
 /* box03 */
+#box03>ul {
+  display: flex;
+  margin-bottom: 80px;
+}
+#box03>ul>li {
+  width: 33.333333%;
+  border: 1px solid #ddd;
+  padding-top: 15px;
+}
+#box03>ul>li>p.title {
+  font-size: 13px;
+  font-weight: bolder;
+  color: #6E391A;
+}
+#box03>ul>li>p.text {
+  margin: 30px 0;
+  font-size: 11px;
+  line-height: 20px;
+}
+#box03>iframe {
+  width: 80%;
+  height: 450px;
+}
