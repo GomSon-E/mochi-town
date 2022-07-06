@@ -252,8 +252,9 @@ footer .box_left>p>a { color: #999; }
 footer .box_left>p>a:hover { text-decoration: underline; }
 
 footer .box_right {
-  display: flex;
   margin-top: 40px;
+  padding-right: 85px;
+  background: url(../image/escrow_inipay.png) no-repeat right;
 }
 footer .box_right p {
   font-size: 10px;
@@ -261,10 +262,4 @@ footer .box_right p {
 }
 footer .box_right p.title { font-weight: bolder; }
 footer .box_right p.text { color: #888; }
-footer .box_right p.img {
-  width: 60px; height: 60px;
-  margin-left: 25px;
-  text-indent: -9999px;
-  background: url(../image/escrow_inipay.png) no-repeat center;
-}
 
