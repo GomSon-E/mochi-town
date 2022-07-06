@@ -168,21 +168,22 @@ section>h4 {
 #box03 {
   margin-bottom: 0;
 }
-#box03>ul {
+#box03>dl {
   display: flex;
   margin-bottom: 80px;
 }
-#box03>ul>li {
+#box03>dl>div {
   width: 33.333333%;
   border: 1px solid #ddd;
   padding-top: 15px;
 }
-#box03>ul>li>p.title {
+#box03>dl>div>dt {
   font-size: 16px;
   font-weight: bolder;
   color: #6E391A;
 }
-#box03>ul>li>p.text {
+#box03>dl>div>dd {
+  display: block;
   margin: 30px 0;
   font-size: 13px;
   line-height: 20px;
