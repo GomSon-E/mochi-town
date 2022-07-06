@@ -78,10 +78,9 @@ article>header {
   margin-bottom: 170px;
 }
 article>header>div {
-  width: 1150px;
+  width: 1150px; height: 190px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  background: url(../image/main_header.png) no-repeat right;
 }
 article>header h3 {
   font: 35px/100px 'Jua', sans-serif;
@@ -91,10 +90,6 @@ article>header p {
   line-height: 25px;
   font-weight: 600;
   color: #7F7861
-}
-article>header p.img {
-  width: 550px; height: 190px;
-  background: url(../image/main_header.png) no-repeat center;
 }
 
 /* box */
