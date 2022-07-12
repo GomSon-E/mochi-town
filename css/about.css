@@ -119,10 +119,8 @@ section>h4 {
 #box01>p.second {
   margin-bottom: 160px;
 }
-#box01>p.img {
-  margin: 0 auto;
-  width: 800px; height: 400px;
-  background: url(../image/box01_img.png) no-repeat center;
+#box01>img#products {
+  width: 800px;
 }
 
 /* box02 */
