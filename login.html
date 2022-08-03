@@ -48,61 +48,69 @@
           <li><input type="text" placeholder="아이디"></li>
           <li><input type="password" placeholder="비밀번호"></li>
           <li><span>보안접속</span></li>
-          <li><input type="submit" value="로그인"></li>
+          <li class="hover_dark"><input type="submit" value="로그인"></li>
         </ul>
         <ul id="snsLogin">
-          <li>네이버 로그인</li>
-          <li>페이스북 로그인</li>
+          <li class="hover_dark">네이버 로그인</li>
+          <li class="hover_dark">페이스북 로그인</li>
         </ul>
         <ul id="find">
           <li><a href="#">아이디 찾기</a></li>
           <li><a href="#">비밀번호 찾기</a></li>
         </ul>
         <p class="text">회원가입을 하시면 다양하고 특별한 혜택이 준비되어 있습니다.</p>
-        <p class="button"><a href="#">회원가입</a></p>
+        <p class="button hover_dark"><a href="#">회원가입</a></p>
       </fieldset>
     </article>
 
     <!-- aside -->
     <aside>
-      <section>
+      <section id="aside01">
         <h4>고객센터</h4>
-        <dl>
-          <dt>고객센터안내번호</dt>
-          <dd>070-7122-6004, 6010</dd>
-          <dd>
-            <ul>
-              <li>광고대행사 전화사절</li>
-              <li>(<dfn>도매문의 : </dfn>02-852-6171)</li>
-              <li><dfn>상담시간 </dfn>AM 09:30 - PM 05:30</li>
-              <li><dfn>점심시간 </dfn>PM 12:00 - PM 01:00</li>
-              <li>주말 및 공휴일 휴무</li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt>무통장 입금계좌정보</dt>
-          <dd>
-            <ul>
-              <li><dfn>하나은행 </dfn>630-007149-051</li>
-              <li><dfn>예금주 : </dfn>주식회사메세</li>
-            </ul>
-            <dd>오후 3시 이전 입금 확인된 주문건에 한해 당일 배송 해드립니다.</dd>
-          </dd>
-        </dl>
+        <div>
+          <dl class="call">
+            <dt>고객센터안내번호</dt>
+            <dd class="num">070-7122-6004, 6010</dd>
+            <dd>
+              <ul>
+                <li>광고대행사 전화사절</li>
+                <li>(<dfn>도매문의 : </dfn>02-852-6171)</li>
+                <li><dfn>상담시간 </dfn>AM 09:30 - PM 05:30</li>
+                <li><dfn>점심시간 </dfn>PM 12:00 - PM 01:00</li>
+                <li>주말 및 공휴일 휴무</li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="bank">
+            <dt>무통장 입금계좌정보</dt>
+            <dd>
+              <ul>
+                <li><dfn>하나은행 </dfn><span>630-007149-051</span></li>
+                <li><dfn>예금주 : </dfn>주식회사메세</li>
+              </ul>
+              <dd>오후 3시 이전 입금 확인된 주문건에 한해 당일 배송 해드립니다.</dd>
+            </dd>
+          </dl>
+        </div>
       </section>
-      <section>
+      <section id="aside02">
         <h4>FOLLOW US</h4>
-        <dl>
-          <dt>Youtube</dt>
-          <dd>MESE-G / ANIPUPPET</dd>
-          <dd>ANIPUPPET KIDS</dd>
-        </dl>
-        <dl>
-          <dt>instagram</dt>
-          <dd>mochi_mochi_shiba</dd>
-          <dd>_mochitown</dd>
-        </dl>
+        <div>
+          <a id="youtube_link" class="hover_dark" href="https://www.youtube.com/channel/UCRmCuDIeLjOJV1spPnGAFXA" target="_blank">
+            <dl>
+              <dt>Youtube</dt>
+              <dd>MESE-G / ANIPUPPET</dd>
+              <dd>ANIPUPPET KIDS</dd>
+            </dl>
+          </a>
+          <a id="insta_link" class="hover_dark" href="https://www.instagram.com/mochitown_official/" target="_blank">
+            <dl>
+              <dt>instagram</dt>
+              <dd>mochi_mochi_shiba</dd>
+              <dd>_mochitown</dd>
+            </dl>
+          </a>          
+        </div>        
       </section>
     </aside>
 
