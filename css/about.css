@@ -205,13 +205,13 @@ section>h4 {
   height: 450px;
 }
 
-/* aside */
-aside {
+/* aside - Buttons */
+aside#buttons {
   position: fixed;
   right: 15px;
   bottom: 15px;
 }
-aside>p {
+aside#buttons>p {
   width: 35px; height: 35px;
   border: 1px solid #000;
   display: flex;
@@ -221,7 +221,7 @@ aside>p {
   font-weight: bolder;
   background-color: rgba(255,255,255,0.6);
 }
-aside>p:first-child {
+aside#buttons>p:first-child {
   margin-bottom: 10px;
 }
 

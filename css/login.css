@@ -173,78 +173,78 @@ fieldset>p.button>a {
   color: #FFF;
 }
 
-/* aside */
-aside {
+/* aside - InfoBox */
+aside#infoBox {
   width: 1100px;
   margin: 0 auto 30px;
   display: flex;
 }
-aside>section {
+aside#infoBox>section {
   width: 49%;
 }
-aside>section>h4 {
+aside#infoBox>section>h4 {
   line-height: 70px;
   font-size: 22px;
   font-weight: bolder;
 }
 
-section#aside01 {
+#infoBox01 {
   margin-right: 30px;
 }
-section#aside01>div {
+#infoBox01>div {
   display: flex;
   height: 230px;
   border: 1px solid #E5E5E5;
   padding: 30px;
   box-sizing: border-box;
 }
-section#aside01 dl {
+#infoBox01 dl {
   width: 50%; 
   padding-left: 30px;
 }
-section#aside01 dl.call {
+#infoBox01 dl.call {
   border-right: 1px solid #E5E5E5;
   padding: 0 30px 0 0;
 }
-section#aside01 dl>dt {
+#infoBox01 dl>dt {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 25px;
 }
-section#aside01 dl.call>dd:first-of-type {
+#infoBox01 dl.call>dd:first-of-type {
   display: block;
   font-size: 18px;
   font-weight: bolder;
   margin-bottom: 25px;
 }
-section#aside01 dl.call ul {
+#infoBox01 dl.call ul {
   font-size: 12px;
   line-height: 17px;
   color: #A99CA6;
 }
-section#aside01 dl.call ul>li:first-child {
+#infoBox01 dl.call ul>li:first-child {
   color: #F00;
 }
-section#aside01 dl.bank ul {
+#infoBox01 dl.bank ul {
   font-size: 12px;
   line-height: 19px;
   margin-bottom: 17px;
 }
-section#aside01 dl.bank ul>li>span {
+#infoBox01 dl.bank ul>li>span {
   font-weight: bold;
 }
-section#aside01 dl.bank>dd:last-child {
+#infoBox01 dl.bank>dd:last-child {
   font-size: 10px;
   line-height: 15px;
   color: #A99CA6;
 }
 
-section#aside02>div {
+#infoBox02>div {
   display: flex;
   justify-content: space-between;
   height: 230px;
 }
-section#aside02 a {
+#infoBox02 a {
   width: 49%;
   padding: 50px;
   box-sizing: border-box;
@@ -252,28 +252,28 @@ section#aside02 a {
   background-color: #E3E3E3;  
   color: white;
 }
-section#aside02 a>dl>dt {
+#infoBox02 a>dl>dt {
   padding-top: 50px;
   background: url(../image/youtube_logo.png) no-repeat center top;
   font-size: 18px;
   line-height: 35px;
 }
-section#aside02 a>dl>dd {
+#infoBox02 a>dl>dd {
   font-size: 12px;
   line-height: 17px;
 }
 
-section#aside02 a#youtube_link>dl>dt {
+#infoBox02 a#youtube_link>dl>dt {
   color: #000;
 }
-section#aside02 a#insta_link {
+#infoBox02 a#insta_link {
   background: rgb(255,213,133);
   background: linear-gradient(21deg, rgba(255,213,133,1) 13%, rgba(243,132,101,1) 39%, rgba(203,92,161,1) 68%, rgba(126,114,208,1) 100%);
 }
-section#aside02 a#insta_link>dl>dd {
+#infoBox02 a#insta_link>dl>dd {
   color: #FFE6A9;
 }
-section#aside02 a#insta_link>dl>dt {
+#infoBox02 a#insta_link>dl>dt {
   background-image: url(../image/insta_logo.png);
 }
 
