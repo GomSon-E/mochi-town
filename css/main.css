@@ -99,6 +99,7 @@ nav>div#search>p.btn {
 #box01 {
   height: 800px;
   overflow: hidden;
+  margin-bottom: 65px;
 }
 #box01>ul {
   width: 1000%;
