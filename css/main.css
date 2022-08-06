@@ -88,6 +88,52 @@ nav>div#search>p.btn {
   right: 15px; top: 5px;
 }
 
+/* main */
+
+/* box01 */
+#box01 {
+  height: 800px;
+  overflow: hidden;
+}
+#box01>ul {
+  width: 1000%;
+  height: 100%;
+  display: flex;
+}
+
+#box01>ul>li {
+  width: 10%;
+  height: 100%;
+  background: url(../image/main_img01.jpg);
+  text-indent: -999999px;
+}
+#box01>ul>li:nth-child(2) { background: url(../image/main_img02.jpg) }
+#box01>ul>li:nth-child(3) { background: url(../image/main_img03.jpg) }
+#box01>ul>li:nth-child(4) { background: url(../image/main_img04.jpg) }
+#box01>ul>li:nth-child(5) { background: url(../image/main_img05.jpg) }
+#box01>ul>li:nth-child(6) { background: url(../image/main_img06.jpg) }
+#box01>ul>li:nth-child(7) { background: url(../image/main_img07.jpg) }
+#box01>ul>li:nth-child(8) { background: url(../image/main_img08.jpg) }
+#box01>ul>li:nth-child(9) { background: url(../image/main_img09.jpg) }
+#box01>ul>li:nth-child(10) { background: url(../image/main_img10.jpg) }
+
+#box01>p#link {
+  height: 100%;
+  display: flex;
+  position: absolute;
+  left: calc(50% - 105px); top: 760px;
+}
+
+#box01>p#link>a {
+  text-indent: -9999px;
+  width: 14px; height: 14px;
+  border: 2px solid #FFF;
+  box-sizing: border-box;
+  /* background-color: #FFF; -> jquery에서 현재 페이지만 설정 */
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 /* aside - Buttons */
 aside#buttons {
   position: fixed;
