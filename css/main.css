@@ -230,7 +230,114 @@ nav>div#search>p.btn {
   filter: brightness(50%);
 }
 
+/* box03 */
+#box03 {
+  margin-bottom: 100px;
+}
+#box03>h3 {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
+#box03 div.show {
+  width: 1100px; height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+} 
+#box03 div.show>p.control_btn {
+  width: 100%;
+  position: absolute;
+  left: 0; top: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+#box03 div.show>p.control_btn>button {
+  width: 40px; height: 65px;
+  text-indent: -9999px;
+  border: none;
+  background: url(../image/button_left.png) no-repeat center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#box03 div.show>p.control_btn>button:last-child {
+  background-image: url(../image/button_right.png);
+}
+
+#box03 div.all {
+  width: 200%;
+  display: flex;
+}
+#box03 div.all>div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#box03 figure {
+  width: 260px;
+}
+
+#box03 figure>div.img_div {
+  width: 260px; height: 260px;
+  margin-bottom: 25px;
+  position: relative;
+  /* overflow: hidden; */
+}
+#box03 figure img {
+  width: 260px;
+}
+#box03 figure p {
+  width: 100%;
+  position: absolute;
+  left: 15px; /* bottom: 15px; */
+}
+#box03 figure p>button {
+  width: 33px; height: 33px;
+  text-indent: -9999px;
+  border: none;
+  border-radius: 5px;
+  background: url(../image/cart.png) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#box03 figure p>button:nth-child(2) {
+  background-image: url(../image/heart.png);
+}
+#box03 figure p>button:last-child {
+  float: right;
+  width: 66px;
+  padding-left: 5px;
+  background: url(../image/like.png) no-repeat left center;
+  background-origin: content-box;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#box03 figure>figcaption {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 15px;
+  color: #555;
+}
+#box03 figure>del {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #555;
+}
+#box03 figure>ins {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+#box03 figure>span {
+  font-size: 10px;
+  background-color: #FF7B08;
+  color: #FFF;
+}
 
 /* aside - Buttons */
 aside#buttons {
