@@ -339,6 +339,38 @@ nav>div#search>p.btn {
   color: #FFF;
 }
 
+/* aside - Youtube Shortcut */
+aside#youtube_shortcut {
+  width: 100%;
+  background-color: #FDDCB3; 
+  padding-top: 50px; 
+}
+aside#youtube_shortcut>div {
+  width: 1048px; height: 185px;
+  margin: 0 auto;
+  background: url(../image/youtube_shortcut_back.png) no-repeat right bottom/contain;
+}
+aside#youtube_shortcut h4 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+aside#youtube_shortcut h4>span {
+  color: #FF1E01;
+}
+aside#youtube_shortcut p {
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: #A9824F;
+}
+aside#youtube_shortcut a {
+  display: block;
+  width: 148px;
+  border: 1.5px solid #000;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+}
+
 /* aside - Buttons */
 aside#buttons {
   position: fixed;
