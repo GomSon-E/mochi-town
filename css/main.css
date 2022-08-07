@@ -173,7 +173,6 @@ div.img_div>p>button:last-child {
 #box01>ul>li:nth-child(10) { background: url(../image/main_img10.jpg) }
 
 #box01>p#link {
-  height: 100%;
   display: flex;
   position: absolute;
   left: calc(50% - 105px); top: 760px;
