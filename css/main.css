@@ -95,6 +95,55 @@ nav>div#search>p.btn {
 
 /* main */
 
+h3 {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+div.content_wrap {
+  width: 1100px;
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure>div.img_div {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  /* overflow: hidden; */
+}
+div.img_div>p {
+  width: 100%;
+  position: absolute;
+  left: 15px; /* bottom: 15px; */
+}
+div.img_div>img {
+  width: 100%;
+}
+div.img_div>p>button {
+  width: 33px; height: 33px;
+  text-indent: -9999px;
+  border: none;
+  border-radius: 5px;
+  background: url(../image/cart.png) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+div.img_div>p>button:nth-child(2) {
+  background-image: url(../image/heart.png);
+}
+div.img_div>p>button:last-child {
+  float: right;
+  width: 66px;
+  padding-left: 5px;
+  background: url(../image/like.png) no-repeat left center;
+  background-origin: content-box;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* box01 */
 #box01 {
   height: 800px;
@@ -143,13 +192,6 @@ nav>div#search>p.btn {
 /* box02 */
 #box02 {
   margin-bottom: 100px;
-}
-
-#box02>div.content_wrap {
-  width: 1100px;
-  margin: 0 auto 25px;
-  display: flex;
-  justify-content: space-between;
 }
 
 #box02 figure>figcaption {
@@ -234,13 +276,6 @@ nav>div#search>p.btn {
 #box03 {
   margin-bottom: 100px;
 }
-#box03>h3 {
-  font-size: 20px;
-  line-height: 45px;
-  font-weight: bolder;
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 #box03 div.show {
   width: 1100px; height: 400px;
@@ -277,41 +312,7 @@ nav>div#search>p.btn {
 }
 
 #box03 figure {
-  width: 260px;
-}
-
-#box03 figure>div.img_div {
-  width: 260px; height: 260px;
-  margin-bottom: 25px;
-  position: relative;
-  /* overflow: hidden; */
-}
-#box03 figure img {
-  width: 260px;
-}
-#box03 figure p {
-  width: 100%;
-  position: absolute;
-  left: 15px; /* bottom: 15px; */
-}
-#box03 figure p>button {
-  width: 33px; height: 33px;
-  text-indent: -9999px;
-  border: none;
-  border-radius: 5px;
-  background: url(../image/cart.png) no-repeat center;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-#box03 figure p>button:nth-child(2) {
-  background-image: url(../image/heart.png);
-}
-#box03 figure p>button:last-child {
-  float: right;
-  width: 66px;
-  padding-left: 5px;
-  background: url(../image/like.png) no-repeat left center;
-  background-origin: content-box;
-  background-color: rgba(0, 0, 0, 0.2);
+  width: 260px; 
 }
 
 #box03 figure>figcaption {
@@ -337,6 +338,30 @@ nav>div#search>p.btn {
   font-size: 10px;
   background-color: #FF7B08;
   color: #FFF;
+}
+
+/* box05 */
+
+#box05>div.content_wrap {
+  height: 656px;
+}
+#box05 figure {
+  width: 212px;
+}
+#box05 div.block01 {
+  height: 100%;
+}
+#box05 div.block01>figure {
+  float: left;
+}
+#box05 div.block01>figure:first-child {
+  width: 434px;
+}
+#box05 div.block03>figure:last-child {
+  width: 434px;
+}
+#box05 div.product_detail {
+  display: none;
 }
 
 /* aside - Youtube Shortcut */
