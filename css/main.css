@@ -340,13 +340,16 @@ div.img_div>p>button:last-child {
 }
 
 /* box05 */
+#box05 {
+  margin-bottom: 85px;
+}
 
-#box05>div.content_wrap {
-  height: 656px;
-}
 #box05 figure {
-  width: 212px;
+  width: 212px; height: 212px;
+  margin: 0 5px;
+  position: relative;
 }
+
 #box05 div.block01 {
   height: 100%;
 }
@@ -354,13 +357,55 @@ div.img_div>p>button:last-child {
   float: left;
 }
 #box05 div.block01>figure:first-child {
-  width: 434px;
+  width: 434px; height: 434px;
+  margin-bottom: 10px;
 }
+
+#box05 div.block02>figure {
+  margin-bottom: 10px;
+}
+
+#box05 div.block03>figure {
+  float: left;
+}
+
 #box05 div.block03>figure:last-child {
-  width: 434px;
+  width: 434px; height: 434px;
+  margin-top: 10px;
 }
+
 #box05 div.product_detail {
-  display: none;
+  width: 100%; height: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  position: absolute;
+  left: 0; top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: none; */
+}
+#box05 div.product_detail>figcaption {
+  margin-bottom: 15px;
+}
+#box05 div.product_detail>span {
+  display: block;
+  width: 20px;
+  margin: 0 auto 15px;
+  border-top: 3px solid #FFF;
+}
+#box05 div.product_detail>del {
+  display: block;
+  margin-bottom: 8px;
+  color: #999;
+}
+#box05 div.product_detail>ins {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* aside - Youtube Shortcut */
