@@ -120,15 +120,19 @@ figure>div.imgBlock {
   position: relative;
   /* overflow: hidden; */
 }
-div.imgBlock>p {
-  width: 100%;
-  position: absolute;
-  left: 15px; /* bottom: 15px; */
-}
 div.imgBlock>img {
   width: 100%;
 }
-div.imgBlock>p>button {
+div.imgBlock>div.productBtn {
+  width: 100%;
+  position: absolute;
+  left: 15px; bottom: 15px;
+}
+div.imgBlock>div.productBtn>span {
+  /* position: absolute;
+  bottom: -50px; */
+}
+div.imgBlock>div.productBtn button {
   width: 33px; height: 33px;
   text-indent: -9999px;
   border: none;
@@ -136,16 +140,17 @@ div.imgBlock>p>button {
   background: url(../image/cart.png) no-repeat center;
   background-color: rgba(0, 0, 0, 0.2);
 }
-div.imgBlock>p>button:nth-child(2) {
+div.imgBlock>div.productBtn>span>button:nth-child(2) {
   background-image: url(../image/heart.png);
 }
-div.imgBlock>p>button:last-child {
-  float: right;
+div.imgBlock>div.productBtn>button {
   width: 66px;
   padding-left: 5px;
   background: url(../image/like.png) no-repeat left center;
   background-origin: content-box;
   background-color: rgba(0, 0, 0, 0.2);
+  /* position: absolute;
+  right: -55px; */
 }
 
 /* figure.productList */

@@ -49,11 +49,13 @@
           <figure className="productList">
             <div className="imgBlock">
               <img src={`../image/${item.name}.jpg`} alt={item.product} />
-              <p>
-                <button>장바구니</button>
-                <button>관심상품</button>
+              <div class="productBtn">
+                <span>
+                  <button>장바구니</button>
+                  <button>관심상품</button>
+                </span> 
                 <button>좋아요</button>
-              </p>
+              </div>
             </div>                
             <figcaption>{item.product}</figcaption>
             <del>{item.del}</del>
