@@ -44,8 +44,8 @@
 
       function showProducts() {
         return props.products.map((item, index) => {return (
-          <figure>
-            <div className="img_div">
+          <figure className="productList">
+            <div className="imgBlock">
               <img src={`../image/${item.name}.jpg`} alt={item.product} />
               <p>
                 <button>장바구니</button>
