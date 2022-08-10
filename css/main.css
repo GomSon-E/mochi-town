@@ -96,11 +96,13 @@ nav>div#search>p.btn {
 /* main */
 
 h3 {
+  width: 1100px; height: 45px;
+  margin: 0 auto 30px;
   font-size: 20px;
   line-height: 45px;
   font-weight: bolder;
-  margin-bottom: 30px;
   text-align: center;
+  background: url(../image/h3_bg_pattern.png) center top;
 }
 
 div.content_wrap {
@@ -350,7 +352,7 @@ figure.productList>span {
   text-align: center;
 }
 
-#box04>select {
+#box04 select {
   text-align: center;
   height: 45px;
   border: none;
