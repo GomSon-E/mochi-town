@@ -28,11 +28,12 @@
       }
 
       return (
-        <h3>
+        <div className="title">
+          <h3 className="hide">상품목록</h3>
           <select id="title" defaultValue={props.title} onChange={onTitleChange}>
             {optionTitle()}
           </select> 
-        </h3>            
+        </div>           
       )
     }
 
