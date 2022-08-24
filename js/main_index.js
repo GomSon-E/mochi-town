@@ -28,7 +28,7 @@
       }
 
       return (
-        <div className="title">
+        <div className="titlePart">
           <h3 className="hide">상품목록</h3>
           <select id="title" defaultValue={props.title} onChange={onTitleChange}>
             {optionTitle()}
@@ -41,35 +41,41 @@
     function Product(props) {
       function isRecommended(recommend) {
         if (recommend == true) {
-          return <span>추천</span>
+          return <dd className="required">추천</dd>
         } 
       }      
 
       function showProducts() {
         return props.products.map((item, index) => {return (
-          <figure className="productList">
-            <div className="imgBlock">
+          <li className="productWrap">
+            <figure className="productList">
               <img src={`../image/${item.name}.jpg`} alt={item.product} />
-              <div class="productBtn">
-                <span>
-                  <button>장바구니</button>
-                  <button>관심상품</button>
-                </span> 
-                <button>좋아요</button>
-              </div>
-            </div>                
-            <figcaption>{item.product}</figcaption>
-            <del>{item.del}</del>
-            <ins>{item.ins}</ins>
-            {isRecommended(item.recommend)}
-          </figure>
+              <figcaption>
+                <dl>
+                  <dt>{item.product}</dt>
+                  <dd><del>{item.del}</del></dd>
+                  <dd><ins>{item.ins}</ins></dd>
+                  {isRecommended(item.recommend)}
+                </dl>
+              </figcaption>
+            </figure>
+            <ul class="productBtns">
+              <li>
+                <ul>
+                  <li class="productBtn cart">장바구니</li>
+                  <li class="productBtn heart">관심상품</li>
+                </ul>
+              </li>
+              <li class="productBtn like">좋아요</li>
+            </ul>
+          </li>
         )})
       }
 
       return (
-        <div className="content_wrap">
+        <ul className="content_wrap">
           {showProducts()}
-        </div>
+        </ul>
       )
     }
   }

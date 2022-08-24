@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 .font_jua {
@@ -110,53 +110,57 @@ h3>span {
   padding: 0 15px;
 }
 
-div.content_wrap {
+.content_wrap {
   width: 1100px;
   margin: 0 auto 25px;
   display: flex;
   justify-content: space-between;
 }
 
-/* div.imgBlock */
+/* ul.productBtns */
 
-figure>div.imgBlock {
-  width: 100%;
-  margin-bottom: 25px;
+li.productWrap {
   position: relative;
-  /* overflow: hidden; */
 }
-div.imgBlock>img {
-  width: 100%;
-}
-div.imgBlock>div.productBtn {
+
+ul.productBtns {
   width: 100%;
   position: absolute;
-  left: 15px; bottom: 15px;
+  left: 15px; top: 215px;
 }
-div.imgBlock>div.productBtn>span {
-  /* position: absolute;
-  bottom: -50px; */
-}
-div.imgBlock>div.productBtn button {
+
+ul.productBtns li.productBtn {
+  display: inline-block;
   width: 33px; height: 33px;
   text-indent: -9999px;
-  border: none;
   border-radius: 5px;
   background: url(../image/cart.png) no-repeat center;
   background-color: rgba(0, 0, 0, 0.2);
 }
-div.imgBlock>div.productBtn>span>button:nth-child(2) {
+
+ul.productBtns>li {
+  display: inline-block;
+}
+
+ul.productBtns>li:first-child {
+  position: absolute;
+  left: 0; top: 50px;
+}
+
+ul.productBtns li.heart {
   background-image: url(../image/heart.png);
 }
-div.imgBlock>div.productBtn>button {
+ul.productBtns li.like {
   width: 66px;
   padding-left: 5px;
   background: url(../image/like.png) no-repeat left center;
   background-origin: content-box;
   background-color: rgba(0, 0, 0, 0.2);
-  /* position: absolute;
-  right: -55px; */
+
+  position: absolute;
+  right: -70px; top: 0;
 }
+
 
 /* figure.productList */
 
@@ -165,26 +169,31 @@ figure.productList {
   margin-bottom: 45px;
 }
 
-figure.productList>figcaption {
+figure.productList>img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+figure.productList>figcaption dt {
   font-size: 12px;
   line-height: 18px;
   margin-bottom: 15px;
   color: #555;
 }
-figure.productList>del {
+figure.productList>figcaption del {
   display: block;
   font-size: 12px;
   margin-bottom: 8px;
   color: #555;
 }
-figure.productList>ins {
+figure.productList>figcaption ins {
   display: block;
   font-size: 15px;
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 6px;
 }
-figure.productList>span {
+figure.productList>figcaption dd.required {
   font-size: 10px;
   background-color: #FF7B08;
   color: #FFF;
@@ -351,7 +360,7 @@ figure.productList>span {
   width: 200%;
   display: flex;
 }
-#box03 div.all>div {
+#box03 div.all>ul {
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -365,7 +374,7 @@ figure.productList>span {
   text-align: center;
 }
 
-#box04>div.title {
+#box04>div.titlePart {
   height: 45px;
   background: url(../image/h3_bg_pattern.png) center top;
   margin-bottom: 30px;
@@ -390,7 +399,7 @@ figure.productList>span {
   background-color: #FFF;
 }
 
-#box04 div.content_wrap{
+#box04 ul.content_wrap{
   flex-wrap: wrap;
   text-align: left;
 }
@@ -406,31 +415,35 @@ figure.productList>span {
   position: relative;
 }
 
-#box05 div.block01 {
+#box05 figure>img {
+  width: 100%;
+}
+
+#box05 ul.block01 {
   height: 100%;
 }
-#box05 div.block01>figure {
+#box05 ul.block01>li {
   float: left;
 }
-#box05 div.block01>figure:first-child {
+#box05 ul.block01>li:first-child>figure {
   width: 434px; height: 434px;
   margin-bottom: 10px;
 }
 
-#box05 div.block02>figure {
-  margin-bottom: 10px;
-}
-
-#box05 div.block03>figure {
-  float: left;
-}
-
-#box05 div.block03>figure:last-child {
+#box05 ul.block03>li:last-child>figure {
   width: 434px; height: 434px;
   margin-top: 10px;
 }
 
-#box05 div.product_detail {
+#box05 ul.block02>li {
+  margin-bottom: 10px;
+}
+
+#box05 ul.block03>li {
+  float: left;
+}
+
+#box05 figure>figcaption {
   width: 100%; height: 100%;
   padding: 0 20px;
   box-sizing: border-box;
@@ -445,24 +458,28 @@ figure.productList>span {
   justify-content: center;
   /* display: none; */
 }
-#box05 div.product_detail>figcaption {
+#box05 figure>figcaption dt {
   margin-bottom: 15px;
 }
-#box05 div.product_detail>span {
+#box05 figure>figcaption span {
   display: block;
   width: 20px;
   margin: 0 auto 15px;
   border-top: 3px solid #FFF;
 }
-#box05 div.product_detail>del {
+#box05 figure>figcaption del {
   display: block;
   margin-bottom: 8px;
   color: #999;
 }
-#box05 div.product_detail>ins {
+#box05 figure>figcaption ins {
   text-decoration: none;
   font-weight: bold;
 }
+
+#box05 ul.productBtns { top: 167px; }
+#box05 ul.block01>li:first-child ul.productBtns { top: 390px; }
+#box05 ul.block03>li:last-child ul.productBtns { top: 400px; }
 
 /* aside - Youtube Shortcut */
 aside#youtube_shortcut {

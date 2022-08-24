@@ -180,6 +180,14 @@ window.data = {
         "del": "11,000원",
         "ins": "9,900원",
         "recommend": true
+      },
+      {
+        "id": "22",
+        "name": "under20cm04",
+        "product": "[모찌타운] 귀요미 강아지 고양이 핫팩인형 4종",
+        "del": "8,000원",
+        "ins": "7,200원",
+        "recommend": false
       }
     ]
   }
