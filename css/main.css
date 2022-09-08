@@ -666,7 +666,8 @@ footer .box_left>dl {
   color: #999;
   margin-bottom: 10px;
 }
-footer .box_left>dl>dt,dd { display: inline; }
+footer .box_left>dl>dt, footer .box_left>dl>dd { display: inline-block; }
+footer .box_left>dl>dd { margin-right: 5px; }
 footer .box_left>dl>dd>a { color: #999; }
 footer .box_left>dl>dd>a:hover { text-decoration: underline; }
 footer .box_left>p {
