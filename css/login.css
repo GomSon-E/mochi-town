@@ -97,7 +97,7 @@ article>h3 {
   font-size: 17px;
   line-height: 55px;
 }
-article>fieldset {
+article>form>fieldset {
   width: 440px; 
   margin: 0 auto;
   border: 1px solid #E5E5E5;
