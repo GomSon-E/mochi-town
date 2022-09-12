@@ -194,6 +194,7 @@ figure.productList>figcaption ins {
   margin-bottom: 6px;
 }
 figure.productList>figcaption dd.required {
+  display: inline;
   font-size: 10px;
   background-color: #FF7B08;
   color: #FFF;
