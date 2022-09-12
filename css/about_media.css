@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1150px) {
-  header#top>div {
+  header#main>div {
     width:1100px;
   }
   article>header>div {
@@ -17,15 +17,15 @@
 
 @media screen and (max-width: 1145px) and (min-width: 890px) {
   /* header */
-  header#top {
+  header#main {
     height: 120px;
     padding: 28px 0 10px;
     background-color: #fff;
   }
-  header#top>div {
+  header#main>div {
     display: block;
   }
-  header#top img {
+  header#main img {
     display: block;
     margin: 0 auto 15px;
     width: 200px;
@@ -49,15 +49,15 @@
 /* Tablet */
 @media screen and (max-width: 889px) and (min-width: 580px) {
   /* header */
-  header#top {
+  header#main {
     height: 120px;
     padding: 28px 0 10px;
     background-color: #fff;
   }
-  header#top>div {
+  header#main>div {
     display: block;
   }
-  header#top img {
+  header#main img {
     display: block;
     margin: 0 auto 15px;
     width: 200px;
@@ -152,19 +152,19 @@
 /* Mobile */
 @media screen and (max-width: 579px) {
   /* header */
-  header#top p#menuBtn {
+  header#main p#menuBtn {
     right: 25px;
     display: block;
   }
-  header#top {
+  header#main {
     height: 75px;
     padding: 28px 0 10px;
     background-color: #fff;
   }
-  header#top>div {
+  header#main>div {
     display: block;
   }
-  header#top img {
+  header#main img {
     display: block;
     margin: 0 auto 15px;
     width: 150px;

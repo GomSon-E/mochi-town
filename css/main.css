@@ -42,7 +42,7 @@ p#menuBtn>span:last-child {
   margin-bottom: 0px;
 }
 
-header#top {
+header#main {
   width: 100%;
   height: 70px;
   padding: 20px 0;
@@ -50,17 +50,17 @@ header#top {
   position: fixed;
   z-index: 999;
 }
-header#top:hover {
+header#main:hover {
   background-color: #fff;
 }
-header#top>div {
+header#main>div {
   width: /* 100% */ 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header#top img {
+header#main img {
   width: 160px;
 }
 nav {
