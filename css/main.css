@@ -117,52 +117,11 @@ h3>span {
   justify-content: space-between;
 }
 
-/* ul.productBtns */
+/* figure.productList */
 
 li.productWrap {
   position: relative;
 }
-
-ul.productBtns {
-  width: 100%;
-  position: absolute;
-  left: 15px; top: 215px;
-}
-
-ul.productBtns li.productBtn {
-  display: inline-block;
-  width: 33px; height: 33px;
-  text-indent: -9999px;
-  border-radius: 5px;
-  background: url(../image/cart.png) no-repeat center;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-ul.productBtns>li {
-  display: inline-block;
-}
-
-ul.productBtns>li:first-child {
-  position: absolute;
-  left: 0; top: 50px;
-}
-
-ul.productBtns li.heart {
-  background-image: url(../image/heart.png);
-}
-ul.productBtns li.like {
-  width: 66px;
-  padding-left: 5px;
-  background: url(../image/like.png) no-repeat left center;
-  background-origin: content-box;
-  background-color: rgba(0, 0, 0, 0.2);
-
-  position: absolute;
-  right: -70px; top: 0;
-}
-
-
-/* figure.productList */
 
 figure.productList {
   width: 260px; height: 400px;
@@ -485,10 +444,6 @@ figure.productList>figcaption dd.required {
   text-decoration: none;
   font-weight: bold;
 }
-
-#box05 ul.productBtns { top: 167px; }
-#box05 ul.block01>li:first-child ul.productBtns { top: 390px; }
-#box05 ul.block03>li:last-child ul.productBtns { top: 400px; }
 
 /* aside - Youtube Shortcut */
 aside#youtube_shortcut {

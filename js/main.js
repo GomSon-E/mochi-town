@@ -59,15 +59,6 @@
                 </dl>
               </figcaption>
             </figure>
-            <ul class="productBtns">
-              <li>
-                <ul>
-                  <li class="productBtn cart">장바구니</li>
-                  <li class="productBtn heart">관심상품</li>
-                </ul>
-              </li>
-              <li class="productBtn like">좋아요</li>
-            </ul>
           </li>
         )})
       }
