@@ -7,6 +7,30 @@ $(function(){
     else { $('#main').css('backgroundColor', 'transparent') }
   })
 
+  if ($('html, body').width() < 890) {
+    $('nav>div#search>p.btn').click(function() {
+      if ($('nav>div#search>p.btn').hasClass('on')) {
+        $('#wrap').animate({top: "0px"}, 500)
+        $(this).removeClass('on') 
+      }
+      else {
+        $('#wrap').animate({top: "60px"}, 500)
+        $(this).addClass('on') 
+      }         
+    })
+  }
+
+  if ($('html, body').width() < 580) {
+    $('#menuBtn').click(function() {
+      $('nav>ul').animate({left: "0px"}, 500)
+      $('p#closeBtn').show(500)
+    })
+    $('#closeBtn').click(function() {
+      $('nav>ul').animate({left: "-70vw"}, 500)
+      $('p#closeBtn').hide(200)
+    })
+  }
+
 
   // main - box01
   
