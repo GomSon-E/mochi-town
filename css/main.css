@@ -76,6 +76,7 @@ nav>div#search>p.btn {
   width: 20px; height: 20px;
   position: absolute;
   right: 15px; top: 5px;
+  cursor: pointer;
 }
 
 /* main */
@@ -267,6 +268,7 @@ figure.productList>figcaption dd.required {
   border: none;
   background: url(../image/button_down.png) no-repeat center;
   background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 #box02 div.slide>p>button.up {
   margin-bottom: 5px;
@@ -301,6 +303,7 @@ figure.productList>figcaption dd.required {
   border: none;
   background: url(../image/button_left.png) no-repeat center;
   background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
 }
 #box03 div.show>p.control_btn>button:last-child {
   background-image: url(../image/button_right.png);
@@ -338,6 +341,7 @@ figure.productList>figcaption dd.required {
   font-weight: bolder;
   padding-right: 20px;
   padding: 0 25px 0 10px;
+  cursor: pointer;
   
   /* 화살표 정리 */
   -o-appearance: none;
@@ -477,6 +481,7 @@ aside#buttons>p {
   font-size: 25px;
   font-weight: bolder;
   background-color: rgba(255,255,255,0.6);
+  cursor: pointer;
 }
 aside#buttons>p:first-child {
   margin-bottom: 10px;
