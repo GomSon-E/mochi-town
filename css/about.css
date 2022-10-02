@@ -257,7 +257,7 @@ footer .box_left>ul>li:first-child { padding-left: 0; }
 footer .box_left>ul>li:last-child { border: none; }
 
 footer .box_left>dl {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   color: #999;
   margin-bottom: 10px;
@@ -267,7 +267,7 @@ footer .box_left>dl>dd { margin-right: 5px; }
 footer .box_left>dl>dd>a { color: #999; }
 footer .box_left>dl>dd>a:hover { text-decoration: underline; }
 footer .box_left>p {
-  font-size: 11px;
+  font-size: 12px;
   color: #999;
 }
 footer .box_left>p>strong { font-weight: bold; }
@@ -280,7 +280,7 @@ footer .box_right {
   background: url(../image/escrow_inipay.png) no-repeat right;
 }
 footer .box_right p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
 }
 footer .box_right p.title { font-weight: bolder; }

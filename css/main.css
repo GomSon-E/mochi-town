@@ -540,7 +540,7 @@ aside#infoBox>section>h4 {
   color: #F00;
 }
 #infoBox01 dl.bank ul {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 19px;
   margin-bottom: 17px;
 }
@@ -548,7 +548,7 @@ aside#infoBox>section>h4 {
   font-weight: bold;
 }
 #infoBox01 dl.bank>dd:last-child {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 15px;
   color: #A99CA6;
 }
@@ -573,7 +573,7 @@ aside#infoBox>section>h4 {
   line-height: 35px;
 }
 #infoBox02 a>dl>dd {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 17px;
 }
 
@@ -614,7 +614,7 @@ footer .box_left>ul>li:first-child { padding-left: 0; }
 footer .box_left>ul>li:last-child { border: none; }
 
 footer .box_left>dl {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   color: #999;
   margin-bottom: 10px;
@@ -624,7 +624,7 @@ footer .box_left>dl>dd { margin-right: 5px; }
 footer .box_left>dl>dd>a { color: #999; }
 footer .box_left>dl>dd>a:hover { text-decoration: underline; }
 footer .box_left>p {
-  font-size: 11px;
+  font-size: 12px;
   color: #999;
 }
 footer .box_left>p>strong { font-weight: bold; }
@@ -637,7 +637,7 @@ footer .box_right {
   background: url(../image/escrow_inipay.png) no-repeat right;
 }
 footer .box_right p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
 }
 footer .box_right p.title { font-weight: bolder; }
